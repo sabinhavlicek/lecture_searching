@@ -22,6 +22,9 @@ def read_data(file_name, field):
     with open(file_name, "r") as file_2:
         data = json.load(file_2)
     return data.get(field)
+
+def pattern_search(sequence, pattern):
+
 def main():
     #pass
     #volání fce read_data
